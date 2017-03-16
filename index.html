@@ -1,80 +1,20 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html lang="en-US">
+<div class="home">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Step Up Software</title>
-</head>
+  <h1>Posts</h1>
 
-<body class="home blog custom-background">
-    <header id="home" class="header" role="banner">
-        <h1 class="intro-text">Step Up Software<br><span>Mobile App Development and Consultancy</span></h1>
-    </header>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <div id="content" class="site-content zerif-fp-site-content">
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-        <section class="focus" id="focus">
-            <h2 class="dark-text">Our Services</h2>
-            <h5 class="red-border-bottom">iOS and Android Apps</h5>
-            <p>
-                Development and support of iOS and Android apps using Titanium and Swift. Training in Titanium for your development team.
-                Project rescue for failing implementations. </p>
-            <h5 class="red-border-bottom">Mobile Strategy</h5>
-            <p>
-                Mobile application architecture, vendor recruitment, package selection, infrastructure as a service (AWS, Azure, Heroku,
-                Rackspace), Continuous Integration </p>
-            <h5 class="red-border-bottom">Node.JS Development</h5>
-            <p>
-                Development of backend services, application proxies and middleware services to support mobile apps. </p>
-            <h5 class="red-border-bottom">Agile Project Management</h5>
-            <p>
-                Project Management, Delivery Lead / Development Lead services, Agile methodology and tools implementation </p>
-        </section>
-        <section class="our-team" id="team">
-            <h2 class="dark-text">Who we are</h2>
-            <figure class="profile-pic">
-                <!--<img src="http://stepupsoftware.co.uk/wp-content/uploads/2016/06/IMG_9043-1.jpg" alt="Jeff Antram">-->
-            </figure>
-
-            <h5 class="dark-text red-border-bottom">Jeff Antram</h5>
-
-            <div class="position">Co-founder and Director</div>
-
-            <figure class="profile-pic">
-
-                <!--<img src="http://stepupsoftware.co.uk/wp-content/uploads/2016/06/IMG_9022-1.jpg" alt="Paul Ryan">-->
-
-            </figure>
-
-            <h5 class="dark-text red-border-bottom">Paul Ryan</h5>
-
-            <div class="position">Co-founder and Director</div>
-        </section>
-        <section class="contact-us" id="contact">
-            <h2 class="white-text">Get in touch</h2>
-
-
-            <form role="form" method="POST" action="" onSubmit="this.scrollPosition.value=(document.body.scrollTop || document.documentElement.scrollTop)"
-                class="contact-form">
-
-                <input type="hidden" name="submitted" id="submitted" value="true" />
-
-
-                <input type="text" name="myname" placeholder="Your Name" class="form-control input-box" value="">
-                <input type="email" name="myemail" placeholder="Your Email" class="form-control input-box" value="">
-                <input type="text" name="mysubject" placeholder="Subject" class="form-control input-box" value="">
-                <textarea name="mymessage" class="form-control textarea-box" placeholder="Your Message"></textarea>
-                <button class="btn btn-primary custom-button red-btn" type="submit" >Send Message</button>
-
-            </form>
-
-
-        </section>
-        <footer id="footer">
-        </footer>
-
-</body>
-
-</html>
+</div>

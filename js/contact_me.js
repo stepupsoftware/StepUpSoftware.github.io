@@ -17,14 +17,17 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            // data validation code here
+
             $.ajax({
-                url: "././mail/contact_me.php",
                 type: "POST",
+                url: "//docs.google.com/a/stepupsoftware.co.uk/forms/d/e/1FAIpQLSeI1XprCjQB9GV9VTaB18THcD_GBGb_NQpDxaKSI6bElsimEQ/formResponse",
+                dataType: "json",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    'entry.1685647862': name,
+                    'entry.72120889': email,
+                    'entry.347483276': phone,
+                    'entry.1114164035': message,
                 },
                 cache: false,
                 success: function() {

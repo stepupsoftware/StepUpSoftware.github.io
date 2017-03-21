@@ -18,11 +18,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             // data validation code here
-
             $.ajax({
                 type: "POST",
-                url: "//docs.google.com/a/stepupsoftware.co.uk/forms/d/e/1FAIpQLSeI1XprCjQB9GV9VTaB18THcD_GBGb_NQpDxaKSI6bElsimEQ/formResponse",
-                dataType: "json",
+                url: "//docs.google.com/a/stepupsoftware.co.uk/forms/d/e/1FAIpQLSeI1XprCjQB9GV9VTaB18THcD_GBGb_NQpDxaKSI6bElsimEQ/formResponse" ,
+                // crossDomain: true,
                 data: {
                     'entry.1685647862': name,
                     'entry.72120889': email,
@@ -30,7 +29,7 @@ $(function() {
                     'entry.1114164035': message,
                 },
                 cache: false,
-                success: function() {
+                success: function(args) {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -43,7 +42,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function(args) {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -51,8 +50,11 @@ $(function() {
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    // $('#contactForm').trigger("reset");
                 },
+                complete: function (args) {
+                    console.log(args);
+                }
             })
         },
         filter: function() {

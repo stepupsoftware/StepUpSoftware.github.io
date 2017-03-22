@@ -1,15 +1,16 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Smoke Free
+subtitle: Mobile App (iOS, Android)
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: 2016-04-01
+img: phe_smoke_free.png
+thumbnail: phe_smoke_free.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: April 2016
+client: Public Health England
+category: App Development
+stackIcons: [fa-apple, fa-android, icon-nodejs]
+description: The SmokeFree app is a 28 day programme designed to help people quit smoking.
 
 ---

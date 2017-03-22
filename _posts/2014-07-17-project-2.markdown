@@ -1,15 +1,16 @@
 ---
-title: Escape
-subtitle: Website Design
+title: C4L Sugar Smart
+subtitle: Mobile App (iOS, Android)
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+date: 2015-12-01
+img: phe_sugar_smart.png
+thumbnail: phe_sugar_smart.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: December 2015
+client: Public Health England
+category: App Development
+stackIcons: [fa-apple, fa-android]
+description: Sometimes it's hard to know how much sugar is in food and drink. The Change4Life Sugar Swaps app is designed to show quickly and easily how much sugar is your food. Just scan the barcode and see how much sugar it contains. Let's start scanning! [1.5 million downloads]and counting
 
 ---

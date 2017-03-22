@@ -1,15 +1,17 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: TUI Digital Assistant
+subtitle: Mobile App (iOS, Android)
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+modal-id: 4
+date: 2015-07-01
+img: tui_tda_app.png
+thumbnail: tui_tda_app.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: July 2015
+client: TUI / Thomson / First Choice
+category: App Development
+stackIcons: [fa-apple, fa-android, icon-nodejs]
+description: Your personal online shopping and savings companion. Answer surveys, get cash rewards. Access the best coupons and deals on the go.
+
 
 ---

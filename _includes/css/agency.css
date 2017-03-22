@@ -880,3 +880,17 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+}
+
+.icon-nodejs {
+    padding: 0.1em 0 0 0.25em;
+}
+

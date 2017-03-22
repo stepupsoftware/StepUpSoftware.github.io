@@ -1,15 +1,15 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Miller Lite Beer Button
+subtitle: AWS IoT Dash Button
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date: 2017-02-01
+img: mc_beer_button.png
+thumbnail: mc_beer_button.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: February 2017
+client: IPG Lab
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+stackIcons: [icon-aws, icon-html5, icon-sass, icon-nodejs]
+description: Search over 160 easy, calorie-counted recipes across breakfast, lunch, evening meals, puds and snacks
 ---

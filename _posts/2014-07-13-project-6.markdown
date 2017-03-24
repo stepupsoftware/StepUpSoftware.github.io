@@ -9,7 +9,7 @@ thumbnail: mc_beer_button.png
 alt: image-alt
 project-date: February 2017
 client: IPG Lab
-category: Web Development
+categories: [Portfolio, Full Stack Development]
 stackIcons: [icon-aws, icon-html5, icon-sass, icon-nodejs]
 description: Search over 160 easy, calorie-counted recipes across breakfast, lunch, evening meals, puds and snacks
 ---

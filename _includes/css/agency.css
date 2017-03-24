@@ -335,7 +335,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -355,7 +355,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 75px 0;
     }
 }
 
@@ -642,6 +642,10 @@ section h3.section-subheading {
     }
 }
 
+section#team {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -672,7 +676,7 @@ section#services {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -857,6 +861,11 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.privacy-modal .modal-content {
+    text-align: left;
+    color: #222;
 }
 
 ::-moz-selection {

@@ -9,7 +9,7 @@ thumbnail: phe_smart_recipes.png
 alt: image-alt
 project-date: October 2016
 client: Public Health England
-category: App Development
+categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android, icon-wordpress, icon-nodejs]
 description: Search over 160 easy, calorie-counted recipes across breakfast, lunch, evening meals, puds and snacks
 ---

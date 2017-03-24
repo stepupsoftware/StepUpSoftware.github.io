@@ -9,7 +9,7 @@ thumbnail: tui_tda_app.png
 alt: image-alt
 project-date: July 2015
 client: TUI / Thomson / First Choice
-category: App Development
+categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android, icon-nodejs]
 description: Your personal online shopping and savings companion. Answer surveys, get cash rewards. Access the best coupons and deals on the go.
 

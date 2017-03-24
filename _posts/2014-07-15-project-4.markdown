@@ -9,7 +9,7 @@ thumbnail: qmee_app.png
 alt: image-alt
 project-date: June 2016
 client: Qmee
-category: App Development
+categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android]
 description: Your personal online shopping and savings companion. Answer surveys, get cash rewards. Access the best coupons and deals on the go.
 

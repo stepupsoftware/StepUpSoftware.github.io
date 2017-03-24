@@ -9,7 +9,7 @@ thumbnail: phe_sugar_smart.png
 alt: image-alt
 project-date: December 2015
 client: Public Health England
-category: App Development
+categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android]
 description: Sometimes it's hard to know how much sugar is in food and drink. The Change4Life Sugar Swaps app is designed to show quickly and easily how much sugar is your food. Just scan the barcode and see how much sugar it contains. Let's start scanning! [1.5 million downloads]and counting
 

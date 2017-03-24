@@ -14,8 +14,11 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary"/>
+                            {% if post.img %}
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"/>
+                            {% endif %}                            
                             <p>{{ post.description }}</p>
+                            {% if post.categories contains 'Portfolio' %}
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
@@ -25,11 +28,12 @@
                                     <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
+                                <!--<li>Service:
                                     <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                     </strong>
-                                </li>
+                                </li>-->
                             </ul>
+                            {% endif %}                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

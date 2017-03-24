@@ -9,7 +9,7 @@ thumbnail: phe_smoke_free.png
 alt: image-alt
 project-date: April 2016
 client: Public Health England
-category: App Development
+categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android, icon-nodejs]
 description: The SmokeFree app is a 28 day programme designed to help people quit smoking.
 

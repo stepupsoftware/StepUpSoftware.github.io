@@ -23,14 +23,12 @@ layout: XXX
             <div class="row bg-light-gray">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                         <div class="post-preview">
-                            <a href="post.html">
-                                <h2 class="post-title">
-                                    {{ page.title }}
-                                </h2>
-                                <p class="post-subtitle">
-                                    {{ content }}
-                                </>
-                            </a>
+                            <h2 class="post-title text-primary">
+                                {{ page.title }}
+                            </h2>
+                            <p class="post-subtitle ">
+                                {{ content }}
+                            </p>
                             <p class="post-meta">Posted
                                 {% if page.author != "" and page.author != nil and page.author != blank %}
                                     by {{page.author}}
@@ -41,6 +39,37 @@ layout: XXX
                     <hr>
                 </div>
             </div>
+
+            <div class="row share-page  bg-light-gray">
+
+                <div class="text-center" >
+
+                    <a class="btn btn-social-icon btn-facebook share s_facebook"
+                        href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+                        onclick="window.open(this.href, 'pop', 'width=600, height=400, scrollbars=no'); return false;">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+
+                    <a class="btn btn-social-icon btn-google"
+                        href="https://plus.google.com/share?url=http://tomhohenstein.com{{ page.url }}&hl=en-US"
+                        onclick="window.open(this.href, 'pop', 'width=600, height=400, scrollbars=no'); return false;">
+                        <i class="fa fa-google"></i>
+                    </a>
+
+                    <a class="btn btn-social-icon btn-linkedin"
+                        href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&source={{ site.title }}"
+                        onclick="window.open(this.href, 'pop', 'width=600, height=400, scrollbars=no'); return false;">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+
+                    <a class="btn btn-social-icon btn-twitter"
+                        href="https://twitter.com/share?text={{ page.title }}&url={{ site.url }}{{site.baseurl}}{{ page.url }}&via={{ site.twitter_username }}"
+                        onclick="window.open(this.href, 'mywin','width=600, height=400, scrollbars=no'); return false;">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </body>
 </html>

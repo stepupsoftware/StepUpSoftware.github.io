@@ -671,7 +671,7 @@ aside.clients img {
 }
 
 section#services {
-    background-color: #fff;    
+    background-color: #fff;
 }
 
 section#contact {
@@ -903,3 +903,13 @@ body {
     padding: 0.1em 0 0 0.25em;
 }
 
+.share-page {
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.share-page a {
+    font-weight: 700;
+    margin-left: 10px;
+}

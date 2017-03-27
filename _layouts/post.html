@@ -1,0 +1,46 @@
+---
+layout: XXX
+---
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+    <body id="page-top" class="index">
+        <header class="intro-header" style="background-color:transparent;" >
+            <div class="container">
+                <div class="row bg-darkest-gray">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="site-heading">
+                            <h1>Step Up Software Blog</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row bg-light-gray">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="post-preview">
+                            <a href="post.html">
+                                <h2 class="post-title">
+                                    {{ page.title }}
+                                </h2>
+                                <p class="post-subtitle">
+                                    {{ content }}
+                                </>
+                            </a>
+                            <p class="post-meta">Posted
+                                {% if page.author != "" and page.author != nil and page.author != blank %}
+                                    by {{page.author}}
+                                {% endif %}
+                                on {{ page.date | date_to_long_string }}
+                            </p>
+                        </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

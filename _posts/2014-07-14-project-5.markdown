@@ -2,7 +2,7 @@
 title: TUI Digital Assistant
 subtitle: Mobile App (iOS, Android)
 layout: default
-modal-id: 4
+modal-id: 5
 date: 2015-07-01
 img: tui_tda_app.png
 thumbnail: tui_tda_app.png
@@ -11,7 +11,6 @@ project-date: July 2015
 client: TUI / Thomson / First Choice
 categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android, icon-nodejs]
-description: Your personal online shopping and savings companion. Answer surveys, get cash rewards. Access the best coupons and deals on the go.
-
+description: The TUI Digital Assistant project delivered a multi-award winning app that has had more than 1 million downloads over 8 countries in 6 different languages and used by more than 150,000 customers every month.
 
 ---

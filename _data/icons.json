@@ -1,0 +1,9 @@
+{
+    "fa-apple" : "iOS",
+    "fa-android" : "Android",
+    "icon-wordpress" : "WordPress",
+    "icon-nodejs" : "node.js",
+    "icon-aws" : "Amazon Web Services",
+    "icon-html5" : "HTML5",
+    "icon-sass" : "SASS"
+}

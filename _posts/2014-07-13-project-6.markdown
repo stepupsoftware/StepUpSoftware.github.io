@@ -11,5 +11,5 @@ project-date: February 2017
 client: IPG Lab
 categories: [Portfolio, Full Stack Development]
 stackIcons: [icon-aws, icon-html5, icon-sass, icon-nodejs]
-description: Search over 160 easy, calorie-counted recipes across breakfast, lunch, evening meals, puds and snacks
+description:  Miller Lite On-Demand allows customers to order beer using an Amazon Alexa command, or by using an Amazon Dash Button. The orders are fulfilled within one hour by Drizly.
 ---

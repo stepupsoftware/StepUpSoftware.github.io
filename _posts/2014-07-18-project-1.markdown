@@ -11,5 +11,5 @@ project-date: October 2016
 client: Public Health England
 categories: [Portfolio, App Development]
 stackIcons: [fa-apple, fa-android, icon-wordpress, icon-nodejs]
-description: Search over 160 easy, calorie-counted recipes across breakfast, lunch, evening meals, puds and snacks
+description: Developed as part of the Change4Life, Eat Well programme for Public Health England, this app includes 160 easy, calorie-counted recipes
 ---

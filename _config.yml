@@ -41,7 +41,9 @@ address:
   - line: Bracknell Enterprise & Innovation Hub,
   - line: Ocean House, The Ring,
   - line: Bracknell, RG12 1AX
-  - line: 'Company registration number: 07145650'
+
+# Registration Number
+regnum: 07145650
 
 # Build settings
 markdown: kramdown

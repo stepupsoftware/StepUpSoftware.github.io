@@ -2,45 +2,27 @@ url: https://StepUpSoftware.github.io
 # baseurl: /susweb/
 
 # Site settings
-title: Step Up Software
-strapline: MOBILE APPS, SOFTWARE DEVELOPMENT AND CONSULTANCY
-email: info@stepupsoftware.co.uk
+title: Step Up Software Ltd
+strapline: ceased trading on the 31st May 2021.
 description: "Mobile app and software development in the Thames Valley,."
 google_analytics: UA-15251128-1
 twitter_username: stepupsoftware
 
 # Team names, titles and social links
 people:
-- name: Jeff Antram
-  pic: 1
-  position: Co-founder & Director
-  social:
-    - title: twitter
-      url: https://twitter.com/jeffatstepup
-    - title: linkedin
-      url: https://www.linkedin.com/in/jeff-antram/
+  - name: Jeff Antram
+    pic: 1
+    position: Co-founder & Director
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/jeff-antram/
 
-- name: Paul Ryan
-  pic: 2
-  position: Co-founder & Director
-  social:
-    - title: twitter
-      url: https://twitter.com/paulatstepup
-    - title: linkedin
-      url: https://www.linkedin.com/in/paulanthonyryan/
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/StepUpSoftware
-  - title: github
-    url: http://github.com/StepUpSoftware
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Bracknell Enterprise & Innovation Hub,
-  - line: Ocean House, The Ring,
-  - line: Bracknell, RG12 1AX
+  - name: Paul Ryan
+    pic: 2
+    position: Co-founder & Director
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/paulanthonyryan/
 
 # Registration Number
 regnum: 07145650
